@@ -9,7 +9,7 @@ public class Bird : Animal
     public string NestType { get; set; }
     public bool CanFly { get; set; }
 
-    public void birdStats()
+    public void BirdStats()
     {
         Console.WriteLine($"Hello my name is {Name} and I am {Age} years old. \n" +
                           $"My wingspan is about {Wingspan} inches wide and \n" +
@@ -17,7 +17,7 @@ public class Bird : Animal
                           $"happiest in is usually a {Habitat}");
     }
 
-    public void fly()
+    public void Fly()
     {
         if (CanFly) { Console.WriteLine($"{Name} has flown away!"); }
         else { Console.WriteLine($"{Name} has is hopping away!"); }
